@@ -1,237 +1,30 @@
+---
+layout: null
+---
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>NSShop</title>
-    <description>Прошивка (чіповка, чіпування) Nintendo Switch всіх ревізій (встановлення і налаштування кастомної прошивки для запуску ігор безкоштовно) та продаж вже готових варіантів як нових, так і вживаних. Працюємо по всій Україні через Нову Пошту. Пишіть, телефонуйте - надаємо будь-які консультації, відповідаємо на будь-які запитання. Також можете писати в телеграм або Viber. тел. +380960229701</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 23 Feb 2024 20:30:39 +0200</pubDate>
-    <lastBuildDate>Fri, 23 Feb 2024 20:30:39 +0200</lastBuildDate>
-    <generator>Jekyll v4.3.3</generator>
-    
+    <title>{{ site.title | xml_escape }}</title>
+    <description>{{ site.description | xml_escape }}</description>
+    <link>{{ site.url }}{{ site.baseurl }}/</link>
+    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
+    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+    <generator>Jekyll v{{ jekyll.version }}</generator>
+    {% for post in site.posts limit:10 %}
       <item>
-        <title>Прошивка (чіповка, чіпування) Nintendo Switch всіх ревізій</title>
-        <description>&lt;p&gt;Прошивка (чіповка, чіпування) Nintendo Switch всіх ревізій (встановлення і налаштування кастомної прошивки для запуску ігор безкоштовно)&lt;/p&gt;
-
-&lt;p&gt;Чіповка з моїм чіпом:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;чіповка Nintendo Switch OLED - 3000 грн.&lt;/li&gt;
-  &lt;li&gt;чіповка Nintendo Switch v1 чи v2 - 1500 грн.&lt;/li&gt;
-  &lt;li&gt;чіповка Nintendo Switch Lite - 2000 грн.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Гарантія на чіп безстрокова.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Чіповка з вашим чіпом:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;700 грн - для першої та другої ревізії&lt;/li&gt;
-  &lt;li&gt;1200 грн - для lite&lt;/li&gt;
-  &lt;li&gt;2100 грн - для OLED&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&quot;t.me/NSProG&quot;&gt;t.me/NSProG&lt;/a&gt; - Приєднуйтесь до нашого чату і отримайте знижки.&lt;/p&gt;
-
-&lt;p&gt;Завдяки чіповці можна скачувати і встановлювати будь-які ігри безкоштовно. Налаштовується емунанд. Встановлюються всі необхідні для работи програми. Можна також переходити в офіційну прошивку для гри онлайн. Прошивка НЕ ЗЛІТАЄ після вимкнення приставки.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;t.me/NSProG&quot;&gt;t.me/NSProG&lt;/a&gt; - Чат для запитань, допомоги і консультацій (можете поспілкуватися з людьми, які в мене прошивалися, і почитати їх відгуки)&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;t.me/NSChip&quot;&gt;t.me/NSChip&lt;/a&gt; - Канал в телеграм NS, NS Lite (прошивка)&lt;/p&gt;
-
-&lt;p&gt;Підтримка і супровід клієнтів після чіповки (прошивки) приставки. Займаюся приставками з 2010 року.&lt;/p&gt;
-
-&lt;p&gt;Також виконую ремонт приставок (заміна роз’ємів під плату мікросд, роз’ємів живлення; заміна екрану, батарії, ремонт джой-конів)&lt;/p&gt;
-
-&lt;p&gt;Працюю по всій Україні через Нову Пошту. Пишіть, телефонуйте - надаю будь-які консультації, відповідаю на будь-які запитання. Також можете писати в телеграм або Viber.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 22 Feb 2024 02:00:00 +0200</pubDate>
-        <link>http://localhost:4000/chip-service/</link>
-        <guid isPermaLink="true">http://localhost:4000/chip-service/</guid>
-        
-        
-        <category>Послуги</category>
-        
+        <title>{{ post.title | xml_escape }}</title>
+        <description>{{ post.content | xml_escape }}</description>
+        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
+        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
+        {% for tag in post.tags %}
+        <category>{{ tag | xml_escape }}</category>
+        {% endfor %}
+        {% for cat in post.categories %}
+        <category>{{ cat | xml_escape }}</category>
+        {% endfor %}
       </item>
-    
-      <item>
-        <title>Продам вживану Nintendo Switch OLED прошиту з флешкою на 128 Гб</title>
-        <description>&lt;p&gt;&lt;strong&gt;Продам вживану Nintendo Switch OLED прошиту з флешкою на 128 Гб&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Ціна: 14200&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Комплект повний. Стан чудовий, все працює без нарікань, обслужена під час чіпування.
-Військовим знижки!&lt;/p&gt;
-
-&lt;p&gt;Наявність кольорів уточнюйте.
-За домовленістю можна укомплектувати більшою флешкою. За акціями і знижками можна слідкувати в нашому 
-телеграм &lt;a href=&quot;https://t.me/NSProG&quot;&gt;https://t.me/NSProG&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Завдяки чіпуванню можна скачувати і встановлювати будь-які ігри безкоштовно. Налаштований емунанд. Установлені всі 
-необхідні для роботи програми. Можна переходити на офіційну прошивку для гри онлайн. Прошивка НЕ ЗЛІТАЄ після 
-виключення приставки.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Гарантія 6 місяців.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Пишіть, відповім на будь-які питання. Можу встановити будь-які ігри по замовленню. Також займаюсь прошивкою,
-чіпуванням приставок.&lt;/p&gt;
-
-&lt;p&gt;Підтримка і супровід клієнтів після чіпування (прошивки) або придбання приставки. Займаюсь приставками з 2010 року.
-Працюю на професійному обладнанні.&lt;/p&gt;
-
-&lt;p&gt;Канал в телеграм NS (lite, OLED) - прошивка, чіповка
-=&amp;gt; &lt;a href=&quot;https://t.me/NSChip&quot;&gt;https://t.me/NSChip&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Чат для запитань і консультацій (можете поспілкуватися з людьми, які у мене прошивалися або купували приставки, і почитати їх відгуки)
-=&amp;gt; &lt;a href=&quot;https://t.me/NSProG&quot;&gt;https://t.me/NSProG&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../assets/images/oled_used_128/oled_used_128_secondary_1.jpeg&quot; alt=&quot;oled_used_128&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../assets/images/oled_used_128/oled_used_128_secondary_2.jpeg&quot; alt=&quot;oled_used_128&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../assets/images/oled_used_128/oled_used_128_secondary_3.jpeg&quot; alt=&quot;oled_used_128&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 22 Feb 2024 02:00:00 +0200</pubDate>
-        <link>http://localhost:4000/switch-oled-used/</link>
-        <guid isPermaLink="true">http://localhost:4000/switch-oled-used/</guid>
-        
-        
-        <category>Консолі</category>
-        
-      </item>
-    
-      <item>
-        <title>Nintendo switch Lite 128Гб нова (прошита, чіпована) + ігри</title>
-        <description>&lt;p&gt;&lt;strong&gt;Продам вживану Nintendo Switch Lite прошиту з флешкою на 128 Гб.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Ціна: 9000&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Комплект повний. Приставка з коробки діставалася тільки для чіпування.&lt;/p&gt;
-
-&lt;p&gt;Наявність кольорів уточнюйте. За домовленістю можна укомплектувати більшою картою.
-За акціями і знижками можна слідкувати в нашому чаті &lt;a href=&quot;https://t.me/NSProG&quot;&gt;https://t.me/NSProG&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Завдяки чіпуванню можна скачувати і встановлювати будь-які ігри безкоштовно. Налаштований емунанд. Установлені всі необхідні для роботи програми. Можна переходити на офіційну прошивку для гри онлайн. Прошивка НЕ ЗЛІТАЄ після виключення приставки.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Гарантія 6 місяців.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Пишіть, відповім на будь-які питання. Можу встановити будь-які ігри по замовленню. Також займаюсь прошивкою, чіпуванням приставок.&lt;/p&gt;
-
-&lt;p&gt;Підтримка і супровід клієнтів після чіпування (прошивки) або придбання приставки. Займаюсь приставками з 2010 року. Працюю на професійному обладнанні.&lt;/p&gt;
-
-&lt;p&gt;Канал в телеграм NS (lite, OLED) - прошивка, чіповка
-=&amp;gt; &lt;a href=&quot;https://t.me/NSChip&quot;&gt;https://t.me/NSChip&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Чат для запитань і консультацій (можете поспілкуватися з людьми, які у мене прошивалися або купували приставки, і почитати їх відгуки)
-=&amp;gt; &lt;a href=&quot;https://t.me/NSProG&quot;&gt;https://t.me/NSProG&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../assets/images/lite_used_128/lite_used_128_secondary_1.jpeg&quot; alt=&quot;oled_used_128&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../assets/images/lite_used_128/lite_used_128_secondary_2.jpeg&quot; alt=&quot;oled_used_128&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 21 Feb 2024 02:00:00 +0200</pubDate>
-        <link>http://localhost:4000/switch-lite-used-128/</link>
-        <guid isPermaLink="true">http://localhost:4000/switch-lite-used-128/</guid>
-        
-        
-        <category>Консолі</category>
-        
-      </item>
-    
-      <item>
-        <title>Nintendo Switch OLED 128 Gb нова, прошита + ігри</title>
-        <description>&lt;p&gt;&lt;strong&gt;Продам нову Nintendo Switch OLED прошиту з флешкою на 128 Гб.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Комплект повний. Приставка з коробки діставалася тільки для чіпування.
-Військовим знижки!&lt;/p&gt;
-
-&lt;p&gt;Наявність кольорів уточнюйте.
-За домовленістю можна укомплектувати більшою флешкою. За акціями і знижками можна слідкувати в нашому телеграм чаті &lt;a href=&quot;https://t.me/NSProG&quot;&gt;https://t.me/NSProG&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Завдяки чіпуванню можна скачувати і встановлювати будь-які ігри безкоштовно. Налаштований емунанд. Установлені всі необхідні для роботи програми. Можна переходити на офіційну прошивку для гри онлайн. Прошивка НЕ ЗЛІТАЄ після виключення приставки.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Гарантія 6 місяців.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Пишіть, відповім на будь-які питання. Можу встановити будь-які ігри по замовленню. Також займаюсь прошивкою, чіпуванням приставок.&lt;/p&gt;
-
-&lt;p&gt;Підтримка і супровід клієнтів після чіпування (прошивки) або придбання приставки. Займаюсь приставками з 2010 року. Працюю на професійному обладнанні.&lt;/p&gt;
-
-&lt;p&gt;Канал в телеграм NS (lite, OLED) - прошивка, чіповка
-=&amp;gt; &lt;a href=&quot;https://t.me/NSProG&quot;&gt;https://t.me/NSChip&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Чат для запитань і консультацій (можете поспілкуватися з людьми, які у мене прошивалися або купували приставки, і почитати їх відгуки)
-=&amp;gt; &lt;a href=&quot;https://t.me/NSProG&quot;&gt;https://t.me/NSProG&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 20 Jan 2024 02:00:00 +0200</pubDate>
-        <link>http://localhost:4000/switch-oled/</link>
-        <guid isPermaLink="true">http://localhost:4000/switch-oled/</guid>
-        
-        
-        <category>Консолі</category>
-        
-      </item>
-    
-      <item>
-        <title>Nintendo Switch v2 128 Gb нова, прошита + ігри</title>
-        <description>&lt;p&gt;&lt;strong&gt;Продам нову Nintendo Switch другої ревізії прошиту з флешкою на 128 Гб.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Комплект повний. Приставка з коробки діставалася тільки для чіпування.
-Військовим знижки!&lt;/p&gt;
-
-&lt;p&gt;Наявність кольорів уточнюйте. За домовленістю можу укомплектувати більшою картою. За акціями і знижками можна слідкувати в нашому телеграм чаті https://t.me/NSProG&lt;/p&gt;
-
-&lt;p&gt;Завдяки чіпуванню можна скачувати і встановлювати будь-які ігри безкоштовно. Налаштований емунанд. Установлені всі необхідні для роботи програми. Можна переходити на офіційну прошивку для гри онлайн. Прошивка НЕ ЗЛІТАЄ після виключення приставки.&lt;/p&gt;
-
-&lt;p&gt;Гарантія 6 місяців.&lt;/p&gt;
-
-&lt;p&gt;Пишіть, відповім на будь-які питання. Можу встановити будь-які ігри по замовленню. Також займаюсь прошивкою, чіпуванням приставок.&lt;/p&gt;
-
-&lt;p&gt;Підтримка і супровід клієнтів після чіпування (прошивки) або придбання приставки. Займаюсь приставками з 2010 року. Працюю на професійному обладнанні.&lt;/p&gt;
-
-&lt;p&gt;Канал в телеграм NS (lite, OLED) - прошивка, чіповка
-=&amp;gt; &lt;a href=&quot;https://t.me/NSChip&quot;&gt;https://t.me/NSChip&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Чат для запитань і консультацій (можете поспілкуватися з людьми, які у мене прошивалися або купували приставки, і почитати їх відгуки)
-=&amp;gt; &lt;a href=&quot;https://t.me/NSProG&quot;&gt;https://t.me/NSProG&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 10 Jan 2024 02:00:00 +0200</pubDate>
-        <link>http://localhost:4000/switch-v2/</link>
-        <guid isPermaLink="true">http://localhost:4000/switch-v2/</guid>
-        
-        
-        <category>Консолі</category>
-        
-      </item>
-    
-      <item>
-        <title>Nintendo switch Lite 128Гб нова (прошита, чіпована) + ігри</title>
-        <description>&lt;p&gt;&lt;strong&gt;Продам нову Nintendo Switch Lite прошиту з флешкою на 128 Гб.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Комплект повний. Приставка з коробки діставалася тільки для чіпування.&lt;/p&gt;
-
-&lt;p&gt;Наявність кольорів уточнюйте. За домовленістю можна укомплектувати більшою картою.
-За акціями і знижками можна слідкувати в нашому чаті &lt;a href=&quot;https://t.me/NSProG&quot;&gt;https://t.me/NSProG&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Завдяки чіпуванню можна скачувати і встановлювати будь-які ігри безкоштовно. Налаштований емунанд. Установлені всі необхідні для роботи програми. Можна переходити на офіційну прошивку для гри онлайн. Прошивка НЕ ЗЛІТАЄ після виключення приставки.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Гарантія 6 місяців.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Пишіть, відповім на будь-які питання. Можу встановити будь-які ігри по замовленню. Також займаюсь прошивкою, чіпуванням приставок.&lt;/p&gt;
-
-&lt;p&gt;Підтримка і супровід клієнтів після чіпування (прошивки) або придбання приставки. Займаюсь приставками з 2010 року. Працюю на професійному обладнанні.&lt;/p&gt;
-
-&lt;p&gt;Канал в телеграм NS (lite, OLED) - прошивка, чіповка
-=&amp;gt; &lt;a href=&quot;https://t.me/NSChip&quot;&gt;https://t.me/NSChip&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Чат для запитань і консультацій (можете поспілкуватися з людьми, які у мене прошивалися або купували приставки, і почитати їх відгуки)
-=&amp;gt; &lt;a href=&quot;https://t.me/NSProG&quot;&gt;https://t.me/NSProG&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 01 Jan 2024 02:00:00 +0200</pubDate>
-        <link>http://localhost:4000/switch-lite/</link>
-        <guid isPermaLink="true">http://localhost:4000/switch-lite/</guid>
-        
-        
-        <category>Консолі</category>
-        
-      </item>
-    
+    {% endfor %}
   </channel>
 </rss>
