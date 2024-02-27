@@ -1,7 +1,8 @@
 # Site
-name: 'NSShop - твій магазин'
-title: 'NSShop - Прошивка(чіповка, чіпування) Nintendo Switch OLED Lite V2 та продаж готових варіантів'
-description: 'Прошивка(чіповка, чіпування) Nintendo Switch всіх ревізій та продаж(нові, вживані). Працюємо по НП. Консультання та запитання на тел. +380960229701(telegram, Viber)'
+name: 'NSShop - твій помічник'
+title: 'NSShop - Прошивка (чіповка, чіпування) Nintendo Switch OLED Lite V2 та продаж готових варіантів'
+description: 'Прошивка (чіповка, чіпування) Nintendo Switch всіх ревізій та продаж (нові, вживані). Працюємо по НП.
+Консультування та запитання на тел. +380960229701 (telegram, Viber)'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: ''
@@ -13,10 +14,11 @@ permalink: /:title/
 
 # SEO Tags
 seo:
-  name: 'NSShop - твій магазин'
+  name: 'NSShop - твій помічник'
   title: 'NSShop - Прошивка(чіповка, чіпування) Nintendo Switch OLED Lite V2 та продаж готових варіантів'
-  tagline: 'Прошивка(чіповка, чіпування) та продаж готових варіантів для Nintendo Switch OLED Lite V2'
-  description: 'Прошивка(чіповка, чіпування) Nintendo Switch всіх ревізій та продаж(нові, вживані). Працюємо по НП. Консультання та запитання на тел. +380960229701(telegram, Viber)'
+  tagline: 'Прошивка (чіповка, чіпування) та продаж готових варіантів для Nintendo Switch OLED Lite V2'
+  description: 'Прошивка (чіповка, чіпування) Nintendo Switch всіх ревізій та продаж (нові, вживані). 
+  Працюємо по НП. Консультування та запитання на тел. +380960229701 (telegram, Viber)'
   url: 'https://nsshop.com.ua'
   image: '/assets/images/logo.png'
 
