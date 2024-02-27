@@ -12,8 +12,9 @@ mailchimp-list: ''
 include: [ '_pages' ]
 permalink: /:title/
 locale: 'uk_UA'
+url: 'https://nsshop.com.ua'
 
-# SEO Tags
+# SEO
 seo:
   name: 'NSShop - твій помічник'
   title: 'NSShop - Прошивка(чіповка, чіпування) Nintendo Switch OLED Lite V2 та продаж готових варіантів'
