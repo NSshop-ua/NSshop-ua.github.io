@@ -4,15 +4,7 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Прошивка(чіповка, чіпування) Nintendo Switch всіх ревізій(встановлення і налаштування кастомної прошивки
+для запуску ігор безкоштовно) та продаж вже готових варіантів як нових, так і вживаних.
+Працюємо по всій Україні через Нову Пошту. Пишіть, телефонуйте - надаємо будь-які консультації, відповідаємо
+на будь-які запитання. Також можете писати в телеграм або Viber. Телефон: +380960229701

@@ -1,13 +1,10 @@
 # Site
-name: 'NSShop'
+name: 'NSShop - твій магазин'
 title: 'NSShop - Прошивка(чіповка, чіпування) Nintendo Switch OLED Lite V2 та продаж готових варіантів'
-description: 'Прошивка(чіповка, чіпування) Nintendo Switch всіх ревізій(встановлення і налаштування кастомної прошивки
-для запуску ігор безкоштовно) та продаж вже готових варіантів як нових, так і вживаних.
-Працюємо по всій Україні через Нову Пошту. Пишіть, телефонуйте - надаємо будь-які консультації, відповідаємо
-на будь-які запитання. Також можете писати в телеграм або Viber. Телефон: +380960229701'
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/favicon.ico'
-baseurl: ''
+description: 'Прошивка(чіповка, чіпування) Nintendo Switch всіх ревізій та продаж(нові, вживані). Працюємо по НП. Консультання та запитання на тел. +380960229701(telegram, Viber)'
+logo: '/assets/images/logo.png'
+favicon: '/assets/images/favicon.ico'
+baseurl: '' # Залиште порожнім, оскільки ваш сайт має кореневий URL
 google_analytics: 'G-6HZHLH7RWT'
 disqus: ''
 mailchimp-list: ''
@@ -16,15 +13,15 @@ permalink: /:title/
 
 # SEO Tags
 seo:
-  name: 'NSShop'
+  name: 'NSShop - твій магазин'
   title: 'NSShop - Прошивка(чіповка, чіпування) Nintendo Switch OLED Lite V2 та продаж готових варіантів'
   tagline: 'Прошивка(чіповка, чіпування) та продаж готових варіантів для Nintendo Switch OLED Lite V2'
-  description: 'Прошивка(чіповка, чіпування) Nintendo Switch всіх ревізій(встановлення і налаштування кастомної прошивки
-для запуску ігор безкоштовно) та продаж вже готових варіантів як нових, так і вживаних.
-Працюємо по всій Україні через Нову Пошту. Пишіть, телефонуйте - надаємо будь-які консультації, відповідаємо
-на будь-які запитання. Також можете писати в телеграм або Viber. Телефон: +380960229701'
+  description: 'Прошивка(чіповка, чіпування) Nintendo Switch всіх ревізій та продаж(нові, вживані). Працюємо по НП. Консультання та запитання на тел. +380960229701(telegram, Viber)'
   url: 'https://nsshop.com.ua/'
-  image: 'assets/images/logo.png'
+  image: '/assets/images/logo.png'
+
+# URL
+url: 'https://nsshop.com.ua/'
 
 # Plugins
 plugins:
