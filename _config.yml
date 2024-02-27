@@ -4,7 +4,7 @@ title: 'NSShop - Прошивка(чіповка, чіпування) Nintendo S
 description: 'Прошивка(чіповка, чіпування) Nintendo Switch всіх ревізій та продаж(нові, вживані). Працюємо по НП. Консультання та запитання на тел. +380960229701(telegram, Viber)'
 logo: '/assets/images/logo.png'
 favicon: '/assets/images/favicon.ico'
-baseurl: '' # Залиште порожнім, оскільки ваш сайт має кореневий URL
+baseurl: 'https://nsshop.com.ua'
 google_analytics: 'G-6HZHLH7RWT'
 disqus: ''
 mailchimp-list: ''
@@ -17,11 +17,8 @@ seo:
   title: 'NSShop - Прошивка(чіповка, чіпування) Nintendo Switch OLED Lite V2 та продаж готових варіантів'
   tagline: 'Прошивка(чіповка, чіпування) та продаж готових варіантів для Nintendo Switch OLED Lite V2'
   description: 'Прошивка(чіповка, чіпування) Nintendo Switch всіх ревізій та продаж(нові, вживані). Працюємо по НП. Консультання та запитання на тел. +380960229701(telegram, Viber)'
-  url: 'https://nsshop.com.ua/'
+  url: 'https://nsshop.com.ua'
   image: '/assets/images/logo.png'
-
-# URL
-url: 'https://nsshop.com.ua/'
 
 # Plugins
 plugins:
