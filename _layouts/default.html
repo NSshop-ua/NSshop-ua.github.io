@@ -74,7 +74,7 @@
 
         <!-- Begin Logo -->
         <a class="navbar-brand" href="{{ site.baseurl }}/">
-            <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
+            <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}" width="100%" height="100%">
         </a>
         <!-- End Logo -->
 
@@ -97,9 +97,9 @@
                     <a class="nav-link" href="{{ site.baseurl }}/">Головна</a>
                 </li>
 
-                <li class="nav-item">
-                    <a target="_blank" class="nav-link" href="https://nsshop.olx.ua/uk/"> OLX.ua</a>
-                </li>
+<!--                <li class="nav-item">-->
+<!--                    <a target="_blank" class="nav-link" href="https://nsshop.olx.ua/uk/"> OLX.ua</a>-->
+<!--                </li>-->
 
                 <li class="nav-item">
                     <a target="_blank" class="nav-link" href="https://izi.ua/uk/m-667249-NSProg"> іЗі.ua</a>
@@ -127,7 +127,10 @@
         <!-- Site Title
         ================================================== -->
         <div class="mainheading">
-            <h1 class="sitetitle"><p>NSshop</p></h1>
+<!--            <h1 class="sitetitle"><p>NSshop - твій помічник у прошивці Nintendo Switch</p></h1>-->
+            <div id="dynamicTitle">
+                <h1 class="sitetitle"><p>NSshop - твій помічник у прошивці Nintendo Switch</p></h1>
+            </div>
             <p class="lead">
             <p>Прошивка (чіповка, чіпування) Nintendo Switch всіх ревізій (встановлення і налаштування кастомної прошивки
                 для запуску ігор безкоштовно) та продаж вже готових варіантів як нових, так і вживаних.
@@ -202,6 +205,21 @@
         crossorigin="anonymous"></script>
 
 <script src="{{ site.baseurl }}/assets/js/mediumish.js"></script>
+
+<script>
+    let currentUrl = window.location.href;
+
+    let divNode = document.getElementById("dynamicTitle");
+
+    if (currentUrl === "https://nsshop.com.ua/") {
+        divNode.innerHTML = "<h1 class='sitetitle'><p>NSshop - твій помічник у прошивці Nintendo Switch</p></h1>";
+    } else {
+        divNode.innerHTML = "<h2 class='sitetitle'><p>NSshop - твій помічник у прошивці Nintendo Switch</p></h2>";
+    }
+</script>
+
+
+
 
 {% if site.lazyimages == "enabled" %}
 <script src="{{ site.baseurl }}/assets/js/lazyload.js"></script>
