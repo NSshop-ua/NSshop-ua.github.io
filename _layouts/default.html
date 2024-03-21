@@ -149,12 +149,13 @@
 
     <!-- Categories Jumbotron
     ================================================== -->
-    <div class="jumbotron fortags rounded-icon">
+    <div class="jumbotron fortags">
         <div class="d-md-flex h-100">
             <div class="col-md-4 transpdark align-self-center text-center h-100">
                 <div class="d-md-flex align-items-center justify-content-center h-100">
-                    <h2 class="d-md-block align-self-center py-1 font-weight-light">Більше про Switch <span
-                            class="d-none d-md-inline">→</span></h2>
+                    <h2 class="d-md-block align-self-center py-1 font-weight-light">
+                        <a href="{{ site.baseurl }}/about" style="color: white; font-size: 30px;"> Більше про нас →</a>
+                    </h2>
                 </div>
             </div>
             <div class="col-md-8 p-5 align-self-center text-center">
@@ -162,14 +163,16 @@
                 {% if categories_list.first[0] == null %}
                 {% for category in categories_list %}
                 <a class="mt-1 mb-1"
-                   href="{{site.baseurl}}/categories/{{ category | url_escape | strip | replace: ' ', '-' }}">{{
-                    category | camelcase }} ({{ site.tags[category].size }})</a>
+                   href="{{site.baseurl}}/categories/{{ category | url_escape | strip | replace: ' ', '-' }}">
+                    {{ category | camelcase }} ({{ site.tags[category].size }})
+                </a>
                 {% endfor %}
                 {% else %}
                 {% for category in categories_list %}
                 <a class="mt-1 mb-1"
-                   href="{{site.baseurl}}/categories/{{ category[0] | url_escape | strip | replace: ' ', '-' }}">{{
-                    category[0] | camelcase }} ({{ category[1].size }})</a>
+                   href="{{site.baseurl}}/categories/{{ category[0] | url_escape | strip | replace: ' ', '-' }}" style="color: black; font-size: 20px;">
+                    {{ category[0] | camelcase }} ({{ category[1].size }})
+                </a>
                 {% endfor %}
                 {% endif %}
                 {% assign categories_list = nil %}
