@@ -1,0 +1,25 @@
+---
+title: "Categories"
+layout: default
+permalink: "/categories/guides.html"
+---
+
+<div class="row listrecent">
+    <div class="section-title col-md-12 mt-4">
+        <h2 id="guides">Категорія <span class="text-capitalize">Гайди</span></h2>
+    </div>
+
+    {% assign guides_category = site.categories['Гайди'] %}
+    {% if guides_category %}
+    {% assign pages_list = guides_category %}
+    {% for guide in pages_list %}
+    {% if guide.title != null %}
+    {% if group == null or group == guide.group %}
+    {% include guidebox.html %}
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+    {% else %}
+    <p>No posts found in the "Гайди" category.</p>
+    {% endif %}
+</div>
