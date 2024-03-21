@@ -9,6 +9,7 @@ License: https://www.wowthemes.net/freebies-license/
 }
 .mainheading {
     padding: 1rem 0rem;
+    text-align: center;
 }
 
 a {
@@ -349,7 +350,8 @@ blockquote {
 
 .featured-image {
     display: block;
-    margin-bottom: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .share {
