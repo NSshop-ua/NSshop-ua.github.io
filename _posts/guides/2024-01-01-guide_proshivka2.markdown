@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: guide
 title: Quide Proshivka Switch 2
 categories: ['Гайди']
 youtubeId: h7yYABEKQlU

@@ -5,7 +5,7 @@ archive: false
 post_class: post-template
 ---
 
-<!-- Begin Article
+<!-- Begin Quide
 ================================================== -->
 <div class="container">
     <div class="row">
@@ -13,11 +13,10 @@ post_class: post-template
         <!-- Post -->
         {% assign author = site.authors[page.author] %}
 
-        <div class="col-md-9 flex-first flex-md-unordered">
+        <div class="col-md-12">
             <div class="mainheading">
                 <!-- Post Title -->
                 <h1 class="posttitle">{{ page.title }}</h1>
-
             </div>
 
             <!-- Adsense if enabled from _config.yml (change your pub id and slot) -->
@@ -25,19 +24,13 @@ post_class: post-template
             {% include adsense-under-header.html %}
             {% endif %}
             <!-- End Adsense -->
-            <!-- Post Featured Image -->
-<!--            {{ page | inspect }}-->
-            {% if page.video %}
-
-            {% endif %}
-            <!-- End Featured Image -->
 
             <!-- Post Content -->
             <div class="article-post">
                 <!-- Toc if any -->
                 {% if page.toc %}
                 {% if page.beforetoc %}
-                <p><em>{{page.beforetoc}}</em></p>
+                <p><em>{{ page.beforetoc }}</em></p>
                 {% endif %}
                 <div class="toc mt-4 mb-4 lead">
                     <h3 class="font-weight-bold">Summary</h3>
@@ -45,26 +38,51 @@ post_class: post-template
                 </div>
                 {% endif %}
                 <!-- End Toc -->
-                {{content}}
+
+                <!-- Video -->
+                {% if page.youtubeId %}
+                <div class="text-center mb-4">
+                    <div class="container" style="max-width: 800px;">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ page.youtubeId }}" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                {% endif %}
+                <!-- End Video -->
+
+                <!-- Content -->
+                <div class="post-text">
+                    {% assign paragraphs = content | strip_html | split: "\n" %}
+                    {% for paragraph in paragraphs %}
+                    <p>{{ paragraph }}</p>
+                    {% endfor %}
+                </div>
+                <!-- End Content -->
             </div>
+            <!-- End Post Content -->
 
             <!-- Prev/Next -->
             <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
-                {{ pages }}
-                {% if page.previous.url %}
-                <a class="prev d-block col-md-6" href="{{page.previous.url}}"> &laquo; {{page.previous.title}}</a>
+                {% if page.previous.categories contains "Гайди" %}
+                <a class="prev d-block col-md-6" href="{{ page.previous.url }}"> &laquo; {{ page.previous.title }}</a>
+                {% else %}
+                <div class="col-md-6"></div>
                 {% endif %}
-                {% if page.next.url %}
-                <a class="next d-block col-md-6 text-lg-right" href="{{page.next.url}}">{{page.next.title}} &raquo; </a>
+
+                {% if page.next.categories contains "Гайди" %}
+                <a class="next d-block col-md-6 text-lg-right" href="{{ page.next.url }}">{{ page.next.title }} &raquo; </a>
+                {% else %}
+                <div class="col-md-6 text-right"></div>
                 {% endif %}
+
                 <div class="clearfix"></div>
             </div>
-            <!-- End Categories -->
-
+            <!-- End Prev/Next -->
         </div>
         <!-- End Post -->
-
     </div>
 </div>
+
 <!-- End Article
 ================================================== -->
