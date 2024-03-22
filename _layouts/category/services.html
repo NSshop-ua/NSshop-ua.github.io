@@ -1,0 +1,21 @@
+---
+title: "Categories"
+layout: default
+permalink: "/categories/services.html"
+---
+
+<div class="row listrecent">
+    <div class="section-title col-md-12 mt-4">
+        <h1 id="services"><span class="text-capitalize">Послуги для Nintendo Switch</span></h1>
+    </div>
+
+    {% assign pages_list = site.categories['Послуги'] %}
+    {% for post in pages_list %}
+    {% if post.title != null %}
+    {% if group == null or group == post.group %}
+    {% include postbox.html %}
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+
+</div>

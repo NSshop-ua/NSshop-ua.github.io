@@ -4,6 +4,7 @@ title:  "Nintendo Switch v2 128 Gb нова(прошита, чіпована) + 
 date:   2024-01-10 00:00:00 +0000
 categories: ['Консолі']
 image: assets/images/v2.jpeg
+tags: [Чіповка, Чіпування, Прошивка, Nintendo, Switch, Nintendo-Switch, Switch-Lite]
 ---
 **Продам нову Nintendo Switch другої ревізії прошиту з флешкою на 128 Гб.**
 

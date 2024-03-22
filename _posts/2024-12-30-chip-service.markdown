@@ -5,6 +5,7 @@ date:   2024-02-26 00:00:00 +0000
 categories: ['Послуги']
 featured: true
 image: assets/images/chip_service.jpeg
+tags: [Чіповка, Чіпування, Прошивка, Nintendo, Switch, Nintendo-Switch, Switch-Lite]
 ---
 Прошивка (чіповка, чіпування) Nintendo Switch всіх ревізій (встановлення і налаштування кастомної прошивки для запуску ігор безкоштовно)
 
