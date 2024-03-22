@@ -1,6 +1,7 @@
 ---
 layout: guide
-title: Guide Proshivka Switch First
+title: "Guide Proshivka Switch First"
+date: 2024-01-01 00:00:00 +0000
 categories: [ 'Гайди' ]
 youtubeId: xXEYq3jOihE
 tags: [ Чіповка Nintendo Switch Гайд,
@@ -8,7 +9,7 @@ tags: [ Чіповка Nintendo Switch Гайд,
         Інструкції з чіпування Nintendo Switch Гайд,
         Підвищення продуктивності Nintendo Switch Гайд,
         Оновлення системи для Nintendo Switch Гайд,
-        Секрети та підказки для Nintendo Switch Гайд]
+        Секрети та підказки для Nintendo Switch Гайд ]
 ---
 
 {% include youtubePlayer.html id='xXEYq3jOihE' %}
