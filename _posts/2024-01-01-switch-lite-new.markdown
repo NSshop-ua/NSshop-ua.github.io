@@ -4,6 +4,7 @@ title:  "Nintendo Switch Lite 128Гб нова(прошита, чіпована)
 date:   2024-01-01 00:00:00 +0000
 categories: ['Консолі']
 image: assets/images/lite_3.jpeg
+tags: [Чіповка, Чіпування, Прошивка, Nintendo, Switch, Nintendo-Switch, Switch-Lite]
 ---
 **Продам нову Nintendo Switch Lite прошиту з флешкою на 128 Гб.**
 

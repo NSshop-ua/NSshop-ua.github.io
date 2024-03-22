@@ -4,6 +4,7 @@ title:  "Nintendo Switch Lite 128Гб вживана(прошита, чіпов�
 date:   2024-02-21 00:00:00 +0000
 categories: ['Консолі']
 image: assets/images/lite_used_128/lite_used_128_main.jpeg
+tags: [Чіповка, Чіпування, Прошивка, Nintendo, Switch, Nintendo-Switch, Switch-Lite]
 ---
 **Продам вживану Nintendo Switch Lite прошиту з флешкою на 128 Гб.**
 

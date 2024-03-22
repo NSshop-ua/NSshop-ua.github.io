@@ -12,9 +12,9 @@ permalink: "/categories/guides.html"
     {% assign guides_category = site.categories['Гайди'] %}
     {% if guides_category %}
     {% assign pages_list = guides_category %}
-    {% for guide in pages_list %}
-    {% if guide.title != null %}
-    {% if group == null or group == guide.group %}
+    {% for post in pages_list %}
+    {% if post.title != null %}
+    {% if group == null or group == post.group %}
     {% include guidebox.html %}
     {% endif %}
     {% endif %}
