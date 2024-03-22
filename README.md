@@ -1,23 +1,12 @@
-# Mediumish - Jekyll Theme
+# NSshop
 
-[Live Demo](https://wowthemesnet.github.io/mediumish-theme-jekyll/) &nbsp; | &nbsp; [Download](https://github.com/wowthemesnet/mediumish-theme-jekyll/archive/master.zip) &nbsp; | &nbsp; [Documentation](https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/) &nbsp; | &nbsp; [Buy me a coffee](https://www.wowthemes.net/donate/)
+NSshop - ваш помічник у світі ігор на консолях Nintendo Switch. Ми пропонуємо широкий вибір нових та вживаних консолей, готових до гри. Незалежно від того, який варіант ви оберете, ми гарантуємо швидку доставку по всій Україні через Нову Пошту, щоб ви могли насолоджуватися грою якомога швидше.
 
-![mediumish](assets/images/mediumish-jekyll-template.png)
+У нашій команді справжні фанати ігор, які розуміють вашу пристрасть до геймінгу. Ми не лише надаємо послуги, але й готові допомогти вам вибрати найкращий варіант для вашого задоволення. **Наша мета - зробити геймінг доступним і захопливим для кожного.**
 
+Не соромтеся звертатися до нас з будь-якими запитаннями або консультаціями. **Ми завжди тут, щоб надати вам найкращу підтримку.** Телефонуйте або пишіть нам в телеграм або Viber за номером **+380960229701**.
 
-### Copyright
+**Разом ми зробимо ваші ігрові мрії реальністю!**
 
-Copyright (C) 2019 Sal, https://www.wowthemes.net
-
-**Mediumish for Jekyll** is designed and developed by [Sal](https://www.wowthemes.net) and it is *free* under MIT license. 
-
-<a href="https://www.wowthemes.net/donate/" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
-
-### Contribute
-
-1. [Fork the repo](https://github.com/wowthemesnet/mediumish-theme-jekyll).
-2. Clone a copy of your fork on your local
-3. Create a branch off of master and give it a meaningful name (e.g. my-new-mediumish-feature).
-4. Make necessary changes, commit, push and open a pull request on GitHub.
-
-Thank you!
+**З найкращими побажаннями,**
+**Команда професіоналів NSshop**
