@@ -45,8 +45,8 @@ title: Home
         <h2><span>Наші гайди</span></h2>
     </div>
     <div class="row listrecent">
-        {% for guide in site.categories['Гайди'] %}
-        {% include youtubePlayer.html id=guide.youtubeId %}
+        {% for post in site.categories['Гайди'] %}
+        {% include youtubePlayer.html id=post.youtubeId %}
         {% endfor %}
     </div>
     <div style="text-align: right;">
