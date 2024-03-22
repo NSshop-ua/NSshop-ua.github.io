@@ -9,9 +9,7 @@ permalink: "/categories/consoles.html"
         <h2 id="services">Категорія <span class="text-capitalize">Консолі</span></h2>
     </div>
 
-    {% assign services_category = site.categories['Консолі'] %}
-    {% if services_category %}
-    {% assign pages_list = services_category %}
+    {% assign pages_list = site.categories['Консолі'] %}
     {% for post in pages_list %}
     {% if post.title != null %}
     {% if group == null or group == post.group %}
@@ -19,7 +17,5 @@ permalink: "/categories/consoles.html"
     {% endif %}
     {% endif %}
     {% endfor %}
-    {% else %}
-    <p>No posts found in the "Консолі" category.</p>
-    {% endif %}
+
 </div>

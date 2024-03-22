@@ -9,9 +9,7 @@ permalink: "/categories/guides.html"
         <h2 id="guides">Категорія <span class="text-capitalize">Гайди</span></h2>
     </div>
 
-    {% assign guides_category = site.categories['Гайди'] %}
-    {% if guides_category %}
-    {% assign pages_list = guides_category %}
+    {% assign pages_list = site.categories['Гайди'] %}
     {% for post in pages_list %}
     {% if post.title != null %}
     {% if group == null or group == post.group %}
@@ -19,7 +17,5 @@ permalink: "/categories/guides.html"
     {% endif %}
     {% endif %}
     {% endfor %}
-    {% else %}
-    <p>No posts found in the "Гайди" category.</p>
-    {% endif %}
+
 </div>
