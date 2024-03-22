@@ -163,7 +163,7 @@
                 {% if categories_list.first[0] == null %}
                 {% for category in categories_list %}
                 <a class="mt-1 mb-1"
-                   href="{{site.baseurl}}/categories/{{ category | url_escape | strip | replace: ' ', '-' }}">
+                   href="{{site.baseurl}}/category/{{ category | url_escape | strip | replace: ' ', '-' }}">
                     {{ category | camelcase }} ({{ site.tags[category].size }})
                 </a>
                 {% endfor %}
@@ -188,7 +188,7 @@
                 {% endif %}
                 {% endfor %}
                 <a class="mt-1 mb-1"
-                   href="{{site.baseurl}}/categories/{{ eng_category | downcase | url_escape | strip | replace: ' ', '-' }}" style="color: black; font-size: 20px;">
+                   href="{{site.baseurl}}/category/{{ eng_category | downcase | url_escape | strip | replace: ' ', '-' }}" style="color: black; font-size: 20px;">
                     {{ ukr_category | camelcase }} ({{ category[1].size }})
                 </a>
                 {% endfor %}
