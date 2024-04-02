@@ -5,6 +5,7 @@ date:   2024-01-20 00:00:00 +0000
 categories: ['Консолі']
 featured: true
 image: assets/images/oled_2.jpg
+tags: [Чіповка, Чіпування, Прошивка, Nintendo, Switch, Nintendo-Switch, Switch-Lite]
 ---
 **Продам нову Nintendo Switch OLED прошиту з флешкою на 128 Гб.**
 

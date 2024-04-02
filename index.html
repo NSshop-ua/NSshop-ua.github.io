@@ -12,17 +12,11 @@ title: Home
         <h2><span>Популярні</span></h2>
     </div>
     <div class="row">
-
-    {% for post in site.posts %}
-
+        {% for post in site.posts %}
         {% if post.featured == true %}
-
-            {% include featuredbox.html %}
-
+        {% include featuredbox.html %}
         {% endif %}
-
-    {% endfor %}
-
+        {% endfor %}
     </div>
 </section>
 
@@ -31,31 +25,39 @@ title: Home
 <!-- Posts Index
 ================================================== -->
 <section class="recent-posts">
-
     <div class="section-title">
-
         <h2><span>Усі товари та послуги</span></h2>
-
     </div>
-
     <div class="row listrecent">
-
         {% for post in paginator.posts %}
-
         {% include postbox.html %}
-
         {% endfor %}
-
     </div>
-
+    <div style="text-align: right;">
+        <a href="{{ site.baseurl }}/category/consoles" class="btn btn-primary-custom">Дивитись усі</a>
+    </div>
 </section>
 
+<!-- Guide Index
+================================================== -->
+<section class="recent-posts">
+    <div class="section-title">
+        <h2><span>Наші гайди</span></h2>
+    </div>
+    <div class="row listrecent">
+        {% for post in site.categories['Гайди'] %}
+        {% include youtubePlayer.html id=post.youtubeId %}
+        {% endfor %}
+    </div>
+    <div style="text-align: right;">
+        <a href="{{ site.baseurl }}/category/guides" class="btn btn-primary-custom">Дивитись усі</a>
+    </div>
+</section>
 <!-- Pagination
 ================================================== -->
-<div class="bottompagination">
-<div class="pointerup"><i class="fa fa-caret-up"></i></div>
-<span class="navigation" role="navigation">
-    {% include pagination.html %}
-</span>
-</div>
-
+<!--<div class="bottompagination">-->
+<!--    <div class="pointerup"><i class="fa fa-caret-up"></i></div>-->
+<!--    <span class="navigation" role="navigation">-->
+<!--    {% include pagination.html %}-->
+<!--</span>-->
+<!--</div>-->

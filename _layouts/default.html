@@ -97,9 +97,9 @@
                     <a class="nav-link" href="{{ site.baseurl }}/">Головна</a>
                 </li>
 
-<!--                <li class="nav-item">-->
-<!--                    <a target="_blank" class="nav-link" href="https://nsshop.olx.ua/uk/"> OLX.ua</a>-->
-<!--                </li>-->
+                <li class="nav-item">
+                    <a target="_blank" class="nav-link" href="https://www.youtube.com/channel/UC5gAZ4f36OJq56g5gtXP62w"> Youtube.com</a>
+                </li>
 
                 <li class="nav-item">
                     <a target="_blank" class="nav-link" href="https://izi.ua/uk/m-667249-NSProg"> іЗі.ua</a>
@@ -120,7 +120,7 @@
 <!-- End Navigation
 ================================================== -->
 
-<div class="site-content">
+<div class="site-content shadow-container">
 
     <div class="container">
 
@@ -141,7 +141,7 @@
 
         <!-- Content
         ================================================== -->
-        <div class="main-content">
+        <div class="main-content rounded-icon">
             {{ content }}
         </div>
 
@@ -153,8 +153,9 @@
         <div class="d-md-flex h-100">
             <div class="col-md-4 transpdark align-self-center text-center h-100">
                 <div class="d-md-flex align-items-center justify-content-center h-100">
-                    <h2 class="d-md-block align-self-center py-1 font-weight-light">Більше про Switch <span
-                            class="d-none d-md-inline">→</span></h2>
+                    <h2 class="d-md-block align-self-center py-1 font-weight-light">
+                        <a href="{{ site.baseurl }}/about" style="color: white; font-size: 30px;"> Більше про нас →</a>
+                    </h2>
                 </div>
             </div>
             <div class="col-md-8 p-5 align-self-center text-center">
@@ -162,14 +163,34 @@
                 {% if categories_list.first[0] == null %}
                 {% for category in categories_list %}
                 <a class="mt-1 mb-1"
-                   href="{{site.baseurl}}/categories#{{ category | url_escape | strip | replace: ' ', '-' }}">{{
-                    category | camelcase }} ({{ site.tags[category].size }})</a>
+                   href="{{site.baseurl}}/category/{{ category | url_escape | strip | replace: ' ', '-' }}">
+                    {{ category | camelcase }} ({{ site.tags[category].size }})
+                </a>
                 {% endfor %}
                 {% else %}
+
+
+                {% assign category_translation = "Послуги|Services, Консолі|Consoles, Гайди|Guides" %}
+                {% assign translations = category_translation | split: ", " %}
+                {% assign category_hash = "" | split: "|" %}
+
+                {% for translation in translations %}
+                {% assign pair = translation | split: "|" %}
+                {% assign category_hash = category_hash | push: pair %}
+                {% endfor %}
+
                 {% for category in categories_list %}
+                {% assign ukr_category = category[0] %}
+                {% assign eng_category = "" %}
+                {% for pair in category_hash %}
+                {% if ukr_category == pair[0] %}
+                {% assign eng_category = pair[1] %}
+                {% endif %}
+                {% endfor %}
                 <a class="mt-1 mb-1"
-                   href="{{site.baseurl}}/categories#{{ category[0] | url_escape | strip | replace: ' ', '-' }}">{{
-                    category[0] | camelcase }} ({{ category[1].size }})</a>
+                   href="{{site.baseurl}}/category/{{ eng_category | downcase | url_escape | strip | replace: ' ', '-' }}" style="color: black; font-size: 20px;">
+                    {{ ukr_category | camelcase }} ({{ category[1].size }})
+                </a>
                 {% endfor %}
                 {% endif %}
                 {% assign categories_list = nil %}
