@@ -1,17 +1,21 @@
 <div class="col-lg-4 col-md-6 mb-30px card-group">
-    <div class="card-body">
-        <h2 class="card-title">
-            <a class="text-dark" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-        </h2>
-    </div>
+    <div class="card h-100">
+        <div class="maxthumb">
+            <div class="embed-container">
+                <iframe
+                        src="https://www.youtube.com/embed/{{ include.id }}"
+                        width="700"
+                        height="480"
+                        frameborder="0"
+                        allowfullscreen="true">
+                </iframe>
+            </div>
+        </div>
 
-    <div class="embed-container">
-        <iframe
-                src="https://www.youtube.com/embed/{{ include.id }}"
-                width="700"
-                height="480"
-                frameborder="0"
-                allowfullscreen="true">
-        </iframe>
+        <div class="card-body">
+            <h2 class="card-title">
+                <a class="text-dark" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+            </h2>
+        </div>
     </div>
 </div>
