@@ -29,9 +29,24 @@ title: Home
         <h2><span>Усі товари та послуги</span></h2>
     </div>
     <div class="row listrecent">
-        {% for post in paginator.posts %}
+        {% assign consoles_posts = site.categories['Консолі'] %}
+        {% assign services_posts = site.categories['Послуги'] %}
+
+        {% if consoles_posts or services_posts %}
+        {% if consoles_posts %}
+        {% for post in consoles_posts %}
         {% include postbox.html %}
         {% endfor %}
+        {% endif %}
+
+        {% if services_posts %}
+        {% for post in services_posts %}
+        {% include postbox.html %}
+        {% endfor %}
+        {% endif %}
+        {% else %}
+        {% include postbox.html %}
+        {% endif %}
     </div>
     <div style="text-align: right;">
         <a href="{{ site.baseurl }}/category/consoles" class="btn btn-primary-custom">Дивитись усі</a>
