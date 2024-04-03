@@ -12,7 +12,7 @@ archive: false
         <!-- Post -->
         {% assign author = site.authors[page.author] %}
 
-        <div class="col-md-12">
+        <div class="col-md-12 flex-first flex-md-unordered">
             <div class="mainheading">
                 <!-- Post Title -->
                 <h1 class="posttitle">{{ page.title }}</h1>
@@ -24,42 +24,24 @@ archive: false
             {% endif %}
             <!-- End Adsense -->
 
-            <!-- Post Content -->
-            <div class="article-post">
-                <!-- Toc if any -->
-                {% if page.toc %}
-                {% if page.beforetoc %}
-                <p><em>{{ page.beforetoc }}</em></p>
-                {% endif %}
-                <div class="toc mt-4 mb-4 lead">
-                    <h3 class="font-weight-bold">Summary</h3>
-                    {% include toc.html html=content %}
-                </div>
-                {% endif %}
-                <!-- End Toc -->
-
-                <!-- Video -->
-                {% if page.youtubeId %}
-                <div class="text-center mb-4">
-                    <div class="container" style="max-width: 800px;">
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ page.youtubeId }}" allowfullscreen></iframe>
-                        </div>
+            <!-- Video -->
+            {% if page.youtubeId %}
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ page.youtubeId }}"
+                                allowfullscreen></iframe>
                     </div>
-                </div>
-                {% endif %}
-                <!-- End Video -->
+            {% endif %}
+            <!-- End Video -->
 
-                <!-- Content -->
-                <div class="post-text">
-                    {% assign paragraphs = content | strip_html | split: "\n" %}
-                    {% for paragraph in paragraphs %}
-                    <p>{{ paragraph }}</p>
-                    {% endfor %}
-                </div>
-                <!-- End Content -->
+            <!-- Content -->
+            <div class="post-text">
+                {% assign paragraphs = content | strip_html | split: "\n" %}
+                {% for paragraph in paragraphs %}
+                <p>{{ paragraph }}</p>
+                {% endfor %}
             </div>
-            <!-- End Post Content -->
+            <!-- End Content -->
+
 
             <!-- Prev/Next -->
             <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
@@ -70,7 +52,8 @@ archive: false
                 {% endif %}
 
                 {% if page.next.categories contains "Гайди" %}
-                <a class="next d-block col-md-6 text-lg-right" href="{{ page.next.url }}">{{ page.next.title }} &raquo; </a>
+                <a class="next d-block col-md-6 text-lg-right" href="{{ page.next.url }}">{{ page.next.title }}
+                    &raquo; </a>
                 {% else %}
                 <div class="col-md-6 text-right"></div>
                 {% endif %}
