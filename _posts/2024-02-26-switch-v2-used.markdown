@@ -6,9 +6,9 @@ categories: ['Консолі']
 image: assets/images/v2_used_128/v2_main.jpg
 tags: [Чіповка, Чіпування, Прошивка, Nintendo, Switch, Nintendo-Switch, Switch-Lite]
 ---
-**Продам вживану Nintendo Switch OLED прошиту з флешкою на 128 Гб**
+**Продам вживану Nintendo Switch прошиту з флешкою на 128 Гб**
 
-**Ціна: 11000**
+**Ціна: 10400**
 
 Комплект повний. Стан чудовий, все працює без нарікань, обслужена під час чіпування.
 
