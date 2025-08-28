@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Nintendo Switch Lite 128Гб вживана(прошита, чіпована) + ігри"
+title:  "Nintendo Switch Lite 128Гб вживана(прошита, чіпована) + ігри, Ціна: 8000"
 date:   2024-02-21 00:00:00 +0000
 categories: ['Консолі']
 image: assets/images/lite_used_128/lite_used_128_main.jpeg
@@ -8,7 +8,7 @@ tags: [Чіповка, Чіпування, Прошивка, Nintendo, Switch, N
 ---
 **Продам вживану Nintendo Switch Lite прошиту з флешкою на 128 Гб.**
 
-**Ціна: 8500**
+**Ціна: 8000**
 
 Комплект повний. Стан чудовий, все працює без нарікань, обслужена під час чіпування.
 

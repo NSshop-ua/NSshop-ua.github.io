@@ -350,7 +350,16 @@ blockquote {
 .article-post blockquote {
     margin: 0 0 1.5rem 0;
     text-align: justify;
+    font-size: 1.0rem;
 }
+
+@media (max-width: 768px) {
+    .article-post p,
+    .article-post blockquote {
+        font-size: 0.7rem;
+    }
+}
+
 
 .featured-image {
     display: block;
