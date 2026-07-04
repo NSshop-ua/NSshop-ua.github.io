@@ -6,6 +6,7 @@ categories: [ 'Гайди' ]
 youtubeId: _WYpRccSjZg
 tags: [ Перше включення чіпованого Nintendo Switch Гайд,
         Перший запуск чіпованого Nintendo Switch Гайд ]
+description: "Відеогайд: перше включення чіпованого Nintendo Switch. Всі тонкощі першого запуску — що робити одразу після отримання прошитої приставки."
 ---
 
 {% include youtubePlayer.html id='_WYpRccSjZg' %}

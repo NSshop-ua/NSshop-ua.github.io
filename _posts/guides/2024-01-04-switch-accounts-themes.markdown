@@ -10,6 +10,7 @@ tags: [ Linkalho Гайд,
         Відвʼязка акаунта для Nintendo Switch Гайд,
         NXThemes для Nintendo Switch Гайд,
         Встановлення кастомних тем для Nintendo Switch Гайд ]
+description: "Відеогайд: як прив'язати та відв'язати акаунт Nintendo через Linkalho, а також встановити кастомні теми через NXThemes на чіпованому Nintendo Switch."
 ---
 
 {% include youtubePlayer.html id='DwS25o3cF_8' %}

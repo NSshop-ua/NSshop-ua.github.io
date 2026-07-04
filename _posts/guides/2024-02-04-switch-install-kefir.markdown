@@ -6,6 +6,7 @@ categories: [ 'Гайди' ]
 youtubeId: shBRayhz67U
 tags: [ Просте оновлення Kefira на Nintendo Switch Гайд,
         прошивки через Kefir Updater на Nintendo Switch Гайд ]
+description: "Відеогайд: як оновити Kefir та прошивку Nintendo Switch через Kefir Updater. Простий спосіб тримати прошивку актуальною."
 ---
 
 {% include youtubePlayer.html id='shBRayhz67U' %}

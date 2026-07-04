@@ -5,6 +5,7 @@ date:   2024-01-01 00:00:00 +0000
 categories: ['Консолі']
 image: assets/images/lite_3.jpeg
 tags: [Чіповка, Чіпування, Прошивка, Nintendo, Switch, Nintendo-Switch, Switch-Lite]
+description: "Нова Nintendo Switch Lite прошита з флешкою 128 Гб. Ціна 12500 грн. Повний комплект, гарантія 6 місяців, доставка Новою Поштою по всій Україні."
 ---
 **Продам нову Nintendo Switch Lite прошиту з флешкою на 128 Гб.**
 

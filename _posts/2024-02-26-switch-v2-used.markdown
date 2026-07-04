@@ -5,6 +5,7 @@ date:   2024-02-23 00:00:00 +0000
 categories: ['Консолі']
 image: assets/images/v2_used_128/v2_main.jpg
 tags: [Чіповка, Чіпування, Прошивка, Nintendo, Switch, Nintendo-Switch, Switch-Lite]
+description: "Вживана Nintendo Switch v2 прошита з флешкою 128 Гб. Ціна 10000 грн. Стан чудовий, повний комплект, гарантія, доставка Новою Поштою по всій Україні."
 ---
 **Продам вживану Nintendo Switch прошиту з флешкою на 128 Гб**
 

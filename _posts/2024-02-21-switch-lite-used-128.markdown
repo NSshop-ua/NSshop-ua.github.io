@@ -5,6 +5,7 @@ date:   2024-02-21 00:00:00 +0000
 categories: ['Консолі']
 image: assets/images/lite_used_128/lite_used_128_main.jpeg
 tags: [Чіповка, Чіпування, Прошивка, Nintendo, Switch, Nintendo-Switch, Switch-Lite]
+description: "Вживана Nintendo Switch Lite прошита з флешкою 128 Гб. Ціна 8500 грн. Стан чудовий, повний комплект, гарантія, доставка Новою Поштою по всій Україні."
 ---
 **Продам вживану Nintendo Switch Lite прошиту з флешкою на 128 Гб.**
 
@@ -36,6 +37,6 @@ tags: [Чіповка, Чіпування, Прошивка, Nintendo, Switch, N
 Чат для запитань і консультацій (можете поспілкуватися з людьми, які у мене прошивалися або купували приставки,
 і почитати їх відгуки) => [https://t.me/NSProG](https://t.me/NSProG)
 
-![oled_used_128](../assets/images/lite_used_128/lite_used_128_secondary_1.jpeg)
+![Nintendo Switch Lite вживана фото 1](../assets/images/lite_used_128/lite_used_128_secondary_1.jpeg)
 
-![oled_used_128](../assets/images/lite_used_128/lite_used_128_secondary_2.jpeg)
+![Nintendo Switch Lite вживана фото 2](../assets/images/lite_used_128/lite_used_128_secondary_2.jpeg)

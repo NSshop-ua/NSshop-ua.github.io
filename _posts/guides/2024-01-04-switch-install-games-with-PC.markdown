@@ -5,6 +5,7 @@ date: 2024-01-04 00:00:00 +0000
 categories: [ 'Гайди' ]
 youtubeId: 9FiV2OLlNYY
 tags: [ Встановлення ігор за допомогою ПК на Nintendo Switch Гайд ]
+description: "Відеогайд: як встановити ігри на Nintendo Switch через ПК. Покрокова відеоінструкція для чіпованих приставок."
 ---
 
 {% include youtubePlayer.html id='9FiV2OLlNYY' %}

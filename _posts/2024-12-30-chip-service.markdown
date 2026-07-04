@@ -6,6 +6,7 @@ categories: ['Послуги']
 featured: true
 image: assets/images/chip_service.jpeg
 tags: [Чіповка, Чіпування, Прошивка, Nintendo, Switch, Nintendo-Switch, Switch-Lite]
+description: "Прошивка Nintendo Switch OLED, Lite, v1, v2. Ціна від 700 грн. Гарантія на чіп безстрокова. Працюю з 2010 року. Доставка Новою Поштою по всій Україні."
 ---
 Прошивка (чіповка, чіпування) Nintendo Switch всіх ревізій (встановлення і налаштування кастомної прошивки для запуску ігор безкоштовно)
 

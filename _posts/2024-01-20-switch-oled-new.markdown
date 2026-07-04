@@ -6,6 +6,7 @@ categories: ['Консолі']
 featured: true
 image: assets/images/oled_2.jpg
 tags: [Чіповка, Чіпування, Прошивка, Nintendo, Switch, Nintendo-Switch, Switch-Lite]
+description: "Нова Nintendo Switch OLED прошита з флешкою 128 Гб. Ціна 18000 грн. OLED екран, повний комплект, гарантія 6 місяців, доставка Новою Поштою по всій Україні."
 ---
 **Продам нову Nintendo Switch OLED прошиту з флешкою на 128 Гб.**
 

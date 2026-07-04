@@ -5,6 +5,7 @@ date:   2024-02-22 00:00:00 +0000
 categories: ['Консолі']
 image: assets/images/oled_used_128/oled_used_128_main.jpeg
 tags: [Чіповка, Чіпування, Прошивка, Nintendo, Switch, Nintendo-Switch, Switch-Lite]
+description: "Вживана Nintendo Switch OLED прошита з флешкою 128 Гб. Ціна 13600 грн. Стан чудовий, OLED екран, повний комплект, гарантія, доставка Новою Поштою по всій Україні."
 ---
 **Продам вживану Nintendo Switch OLED прошиту з флешкою на 128 Гб**
 
@@ -36,8 +37,8 @@ tags: [Чіповка, Чіпування, Прошивка, Nintendo, Switch, N
 Чат для запитань і консультацій (можете поспілкуватися з людьми, які у мене прошивалися або купували приставки,
 і почитати їх відгуки) => [https://t.me/NSProG](https://t.me/NSProG)
 
-![oled_used_128](../assets/images/oled_used_128/oled_used_128_secondary_1.jpeg)
+![Nintendo Switch OLED вживана фото 1](../assets/images/oled_used_128/oled_used_128_secondary_1.jpeg)
 
-![oled_used_128](../assets/images/oled_used_128/oled_used_128_secondary_2.jpeg)
+![Nintendo Switch OLED вживана фото 2](../assets/images/oled_used_128/oled_used_128_secondary_2.jpeg)
 
-![oled_used_128](../assets/images/oled_used_128/oled_used_128_secondary_3.jpeg)
+![Nintendo Switch OLED вживана фото 3](../assets/images/oled_used_128/oled_used_128_secondary_3.jpeg)

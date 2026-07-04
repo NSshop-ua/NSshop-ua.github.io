@@ -7,6 +7,7 @@ youtubeId: gdzXNxO7Jwo
 tags: [ Встановлення ігор з флешки Nintendo Switch Гайд,
         Встановлення ігор з жорсткого диску Nintendo Switch Гайд,
         Встановлення ігор з зовнішнього носія Nintendo Switch Гайд ]
+description: "Відеогайд: як встановити ігри на Nintendo Switch з флешки або зовнішнього жорсткого диску. Покроковий відеоінструкція для чіпованих приставок."
 ---
 
 {% include youtubePlayer.html id='gdzXNxO7Jwo' %}
